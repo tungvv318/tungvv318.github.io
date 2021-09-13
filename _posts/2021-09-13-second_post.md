@@ -47,6 +47,16 @@ print(A.a)  # Hello Tung
 ```python
 print(x.__dict__)
 # {'a': 'Hello Linh'}
+print(x.__class__.__dict__)
+"""
+{
+    '__module__': '__main__',
+    'a': "This is changing the class attribute 'a'!",
+    '__dict__': <attribute '__dict__' of 'A' objects>,
+    '__weakref__': <attribute '__weakref__' of 'A' objects>,
+    '__doc__': None
+}
+"""
 print(y.__dict__)
 # {}
 print(A.__dict__)
@@ -61,3 +71,5 @@ print(A.__dict__)
 """
 ```
 
+### 2, Static Method
+### 3, Class Method
